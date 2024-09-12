@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(223, 71%, 67%);
+    font-family: "karla",sans-serif;
+}
+form{ background-color: white;
+padding:2em ;
+border-radius: 0.5em;
+}
+   
+.formulario{ display: flex;
+ justify-content: center;  
+ align-items: center;
+ margin: 20vh 10vh 0 10vh;
+}
+h1{
+    margin: 2em;
+}
+button{
+    width:100% ;
+    height:3em ;
+    border-radius:0.5em ;
+    background-color:hsl(169,82%,27%) ;
+    color: white;
+    border: none;
+}
+.primeiroNome input, .sobrenome input{
+width: 100%;
+height: 2.5em;
+border:1px solid lightgray;
+border: radius 0.5em;
+}
+.primeiroNome{
+    margin-right: 1em;
+}
+.sobrenome{
+    margin-right: 1em;
+}
+
+.campoEmail input{
+    width:100% ;
+    height: 2.5em;
+    border: 1px solid lightgray;
+border: radius 0.5em ;
+
+}
+
+.campoEmail{campoEmail
+    margin-right:1em ;
+}
+.campoDeselecao input, .selecao input{
+width:100% ;
+height:1,5em ;
+border:1px solid lightgray ;
+border: radius 1.5em ;
+}
+.campoDeselecao {
+   margin-right: 1em;  
+}
+
+.selecao{
+    margin-right: 1em;
+}
+
+.campoMensagem input{
+    width: 100%;
+    height:1,5em ;
+    border:radius 1.5em;
+}
+ 
+.campoMensagem{border: 3px solid lightgray;}
